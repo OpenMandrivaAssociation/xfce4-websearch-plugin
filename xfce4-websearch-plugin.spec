@@ -9,7 +9,7 @@ Source0:	http://goodies.xfce.org/releases/xfce4-weather-plugin/%{name}-%{version
 Requires:	xfce4-panel >= 4.4.2
 BuildRequires:	xfce4-panel-devel >= 4.4.2
 BuildRequires:	libxfcegui4-devel >= 4.4.2
-BuildRequires:	perl(XML::Parser)
+BuildRequires:	perl(XML::Parser) intltool
 Obsoletes:	xfce-websearch-plugin
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
