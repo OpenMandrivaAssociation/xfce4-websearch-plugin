@@ -1,6 +1,6 @@
 Summary:	A web search plugin for the Xfce panel
 Name:		xfce4-websearch-plugin
-Version:	0.1.0
+Version:	0.1.1
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
