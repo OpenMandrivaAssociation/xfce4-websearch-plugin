@@ -44,3 +44,33 @@ rm -rf %{buildroot}
 %doc NEWS COPYING AUTHORS ChangeLog README
 %{_libdir}/xfce4/panel-plugins/*
 %{_datadir}/xfce4/panel-plugins/websearch.desktop
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.1.1-5mdv2010.0
++ Revision: 435107
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1.1-4mdv2009.0
++ Revision: 262415
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1.1-3mdv2009.0
++ Revision: 257015
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Thu Dec 13 2007 Jérôme Soyer <saispo@mandriva.org> 0.1.1-1mdv2008.1
++ Revision: 119329
+- Fix tarball
+- New release 0.1.1
+
+* Thu Dec 06 2007 Jérôme Soyer <saispo@mandriva.org> 0.1.0-1mdv2008.1
++ Revision: 115812
+- Add BuildRequires
+- import xfce4-websearch-plugin
+
+
