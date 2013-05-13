@@ -8,7 +8,7 @@ URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-weather-plugin
 Source0:	http://goodies.xfce.org/releases/xfce4-weather-plugin/%{name}-%{version}.tar.bz2
 Requires:	xfce4-panel >= 4.4.2
 BuildRequires:	xfce4-panel-devel >= 4.4.2
-BuildRequires:	libxfcegui4-devel >= 4.4.2
+BuildRequires:	pkgconfig(libxfcegui4-1.0) >= 4.4.2
 BuildRequires:	perl(XML::Parser) intltool
 Obsoletes:	xfce-websearch-plugin
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
