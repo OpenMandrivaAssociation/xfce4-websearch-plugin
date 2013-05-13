@@ -1,7 +1,7 @@
 Summary:	A web search plugin for the Xfce panel
 Name:		xfce4-websearch-plugin
 Version:	0.1.1
-Release:	%mkrel 5
+Release:	6
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-weather-plugin
@@ -11,7 +11,6 @@ BuildRequires:	xfce4-panel-devel >= 4.4.2
 BuildRequires:	pkgconfig(libxfcegui4-1.0) >= 4.4.2
 BuildRequires:	perl(XML::Parser) intltool
 Obsoletes:	xfce-websearch-plugin
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 A web search plugin for the Xfce panel.
