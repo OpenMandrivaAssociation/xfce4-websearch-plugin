@@ -4,7 +4,7 @@ Version:	0.1.1
 Release:	7
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-weather-plugin
+URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-weather-plugin
 Source0:	http://goodies.xfce.org/releases/xfce4-weather-plugin/%{name}-%{version}.tar.bz2
 Requires:	xfce4-panel >= 4.4.2
 BuildRequires:	xfce4-panel-devel >= 4.4.2
