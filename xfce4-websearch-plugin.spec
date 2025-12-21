@@ -7,6 +7,11 @@ Group:		Graphical desktop/Xfce
 URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-weather-plugin
 Source0:	http://goodies.xfce.org/releases/xfce4-weather-plugin/%{name}-%{version}.tar.bz2
 Requires:	xfce4-panel >= 4.4.2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	xfce4-panel-devel >= 4.4.2
 BuildRequires:	pkgconfig(libxfcegui4-1.0) >= 4.4.2
 BuildRequires:	perl(XML::Parser) intltool
